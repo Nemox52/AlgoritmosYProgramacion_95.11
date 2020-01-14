@@ -4,10 +4,10 @@ inverso por el flujo de salida estándar.*/
 
 int main(void)
 {
-    char entrada[6] = "1234";
-    char salida[6] = "abc";
+    char entrada[17] = "anitalavalatina.";
+    char salida[17] = "";
     size_t i = 0;
-    size_t j = 3;
+    size_t j = 15;
 
     while (entrada[i] != '\0')
     {
@@ -16,10 +16,9 @@ int main(void)
         j--;
     }
     putchar('\n');
-    
-    printf("entrada 1:%s",entrada);
+    printf("entrada:%s",entrada);
     putchar('\n');
-    printf("salida  2:%s",salida);
+    printf("salida :%s",salida);
     putchar('\n');
     return 0;
 }
